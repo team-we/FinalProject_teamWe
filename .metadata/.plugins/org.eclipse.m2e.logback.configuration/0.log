@@ -195,3 +195,15 @@ org.eclipse.swt.SWTException: Widget is disposed
 2016-11-10 13:41:45,102 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2016-11-10 13:41:45,106 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-11-10 13:41:45,109 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-10 14:26:24,513 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gmail:whwan09:1.0.0-BUILD-SNAPSHOT @ D:\FinalProject\Dormammu\FinalProject_teamWe\Dormammu\pom.xml.
+2016-11-10 14:26:27,147 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-11-10 14:26:27,153 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-10 14:26:27,162 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-11-10 14:26:27,165 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-10 14:26:27,171 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Dormammu
+2016-11-10 14:26:27,172 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Dormammu
+2016-11-10 14:26:27,179 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-11-10 14:26:55,636 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-11-10 14:26:55,649 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-10 14:26:55,653 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-11-10 14:26:55,655 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
