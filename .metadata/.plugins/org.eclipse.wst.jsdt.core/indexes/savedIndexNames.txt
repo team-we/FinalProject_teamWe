@@ -1,0 +1,9 @@
+INDEX VERSION 1.3+C:\Users\IT\Desktop\직박구리\FinalProject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3064402349.index
+1536214517.index
+3804414870.index
+1752846413.index
+281380339.index
+3123815990.index
+1706109004.index
+481673917.index
