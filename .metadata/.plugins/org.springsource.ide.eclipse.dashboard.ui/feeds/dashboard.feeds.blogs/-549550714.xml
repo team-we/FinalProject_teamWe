@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-11-10T18:08:54Z</updated>
+  <updated>2016-11-10T18:08:00Z</updated>
   <entry>
     <title>Spring Data Geode 1.0.0.INCUBATING-RELEASE Released</title>
     <link rel="alternate" href="https://spring.io/blog/2016/11/10/spring-data-geode-1-0-0-incubating-release-released" />
@@ -14,7 +14,7 @@
       <name>John Blum</name>
     </author>
     <id>tag:spring.io,2016-11-08:2690</id>
-    <updated>2016-11-10T18:08:54Z</updated>
+    <updated>2016-11-10T18:08:00Z</updated>
     <content type="html">&lt;p&gt;On behalf of the &lt;em&gt;Spring&lt;/em&gt; and &lt;em&gt;Apache Geode&lt;/em&gt; communities, I am extremely pleased and excited to announce the release of &lt;em&gt;Spring Data&lt;/em&gt; for &lt;a href="http://geode.incubator.apache.org/releases/"&gt;Apache Geode 1.0.0-incubating&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can get the bits from &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cspring-data-geode"&gt;Maven Central&lt;/a&gt; by including the following dependency in either your application Maven POM or Gradle build file&amp;hellip;&lt;/p&gt;&lt;h4&gt;&lt;a href="#maven" class="anchor" name="maven"&gt;&lt;/a&gt;Maven&lt;/h4&gt;
 &lt;pre&gt;&lt;code class="prettyprint"&gt;&amp;lt;dependency&amp;gt;&#xD;
@@ -32,7 +32,7 @@
 &lt;p&gt;Both &lt;em&gt;Spring Data Geode&lt;/em&gt; &lt;strong&gt;1.0.0.INCUBATING-RELEASE&lt;/strong&gt; and &lt;em&gt;Apache Geode&lt;/em&gt; &lt;strong&gt;1.0.0-incubating&lt;/strong&gt; release are significant for several reasons.&lt;/p&gt;
 &lt;p&gt;First and foremost, this marks the first, &lt;a href="http://markmail.org/message/5p4kx6akynrt6cvo"&gt;official GA release&lt;/a&gt; of &lt;a href="http://geode.incubator.apache.org/"&gt;Apache Geode&lt;/a&gt; inside the &lt;em&gt;Apache Software Foundation&lt;/em&gt; (ASF). This is a massive step forward not only to signify the maturity of Geode, which is rooted in over a decade of production experience that is &lt;a href="https://pivotal.io/big-data/pivotal-gemfire"&gt;Pivotal GemFire&lt;/a&gt;, but also accelerates it&amp;rsquo;s graduation as a Top-Level Project (TLP) inside ASF.&lt;/p&gt;
 &lt;p&gt;But, that&amp;rsquo;s not all!&lt;/p&gt;&lt;h1&gt;&lt;a href="#security" class="anchor" name="security"&gt;&lt;/a&gt;Security!&lt;/h1&gt;
-&lt;p&gt;This release also incorporates significant changes to the security model of &lt;em&gt;Apache Geode&lt;/em&gt; by introducing a &lt;strong&gt;new&lt;/strong&gt;, &lt;a href="http://geode.incubator.apache.org/docs/guide/managing/security/chapter_overview.htm"&gt;&lt;em&gt;Integrated Security&lt;/em&gt; framework&lt;/a&gt; (some technical details &lt;a href="https://cwiki.apache.org/confluence/display/GEODE/Geode+Integrated+Security"&gt;here&lt;/a&gt;) that not only includes secure transport (i.e. SSL) but authentication and authorization as well.&lt;/p&gt;
+&lt;p&gt;This release also incorporates significant changes to the security model of &lt;em&gt;Apache Geode&lt;/em&gt; by introducing a &lt;strong&gt;new&lt;/strong&gt;, &lt;a href="http://geode.incubator.apache.org/docs/guide/managing/security/chapter_overview.html"&gt;&lt;em&gt;Integrated Security&lt;/em&gt; framework&lt;/a&gt; (some technical details &lt;a href="https://cwiki.apache.org/confluence/display/GEODE/Geode+Integrated+Security"&gt;here&lt;/a&gt;) that not only includes secure transport (i.e. SSL) but authentication and authorization as well.&lt;/p&gt;
 &lt;p&gt;This is significant because &lt;em&gt;Apache Geode&lt;/em&gt; is one of the few OSS IMDG options to offer Security without an Enterprise license!&lt;/p&gt;
 &lt;p&gt;One of the best things about this new feature is that it is a &lt;em&gt;framework&lt;/em&gt; allowing different security providers to be plugged in. Out-of-the-box, Geode is built on &lt;a href="http://shiro.apache.org/"&gt;Apache Shiro&lt;/a&gt;, which provides a familiar and robust way to configure security not only for Geode, but your applications as well.&lt;/p&gt;&lt;h1&gt;&lt;a href="#how-to-secure-apache-geode" class="anchor" name="how-to-secure-apache-geode"&gt;&lt;/a&gt;How-To Secure Apache Geode&lt;/h1&gt;
 &lt;p&gt;Without &lt;em&gt;Spring (Data Geode)&lt;/em&gt;, &lt;em&gt;Apache Geode&lt;/em&gt; provides its own options for configuring security.&lt;/p&gt;

@@ -383,3 +383,7 @@ org.eclipse.swt.SWTException: Widget is disposed
 2016-11-11 15:22:44,590 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2016-11-11 15:22:44,592 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-11-11 15:22:44,593 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-11-11 16:22:06,018 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-11-11 16:22:06,034 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-11-11 16:22:06,034 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-11-11 16:22:06,034 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
