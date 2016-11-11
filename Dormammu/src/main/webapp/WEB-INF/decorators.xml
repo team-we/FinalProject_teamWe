@@ -7,7 +7,7 @@
 
 	<!-- sample -->
 
-	<decorator name="home" page="member/member_insert.jsp">
+	<decorator name="home" page="home.jsp">
 		<pattern>/</pattern>
 	</decorator>
 <!-- 	<decorator name="header" page="layout/header.jsp"/> -->
