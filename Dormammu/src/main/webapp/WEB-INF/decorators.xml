@@ -7,9 +7,9 @@
 
 	<!-- sample -->
 
-	<decorator name="home" page="login/insert_login">
-		<pattern>/</pattern>
-	</decorator>
+<!-- 	<decorator name="home" page="member/member_insert"> -->
+<!-- 		<pattern>/</pattern> -->
+<!-- 	</decorator> -->
 <!-- 	<decorator name="header" page="layout/header.jsp"/> -->
 <!-- 	<decorator name="menu" page="layout/menu.jsp"/> -->
 	

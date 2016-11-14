@@ -37,9 +37,7 @@
 		document.insert_form.job.value = "";
 	}
 	$(document).ready(function() {
-		$('#ulphone1 li').click(function(){
-			$('#phone1').attr('value',$(this).text());
-		});
+	
 		$('#save').click(function(){
 			if($('#confirm_check').val()=='no'){
 				alert("ID중복 체크하세요");
@@ -47,11 +45,7 @@
 			}
 			$('#insert_form').submit();
 		});
-		$('#photo').change(function(event){
-			var tmppath = URL.createObjectURL(event.target.files[0]);
-			alert($(this).val());
-			$('#image').attr('src',tmppath);
-		});
+		
 		$('#confirm').click(function(){
 			var id = $('#id').val();
 			if( id == "") {
@@ -89,7 +83,7 @@
 			<div class="col-md-3">
 				<div class="input-group">
 					<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
-					<input id="id" name="id" class="form-control" type="text" size="16" autofocus placeholder="@example.com" autocomplete="off" />
+					<input id="id" name="id" class="form-control" type="text" size="16" autofocus placeholder="@example.com" autocomplete="off"/>
 					<span class="input-group-btn">
 						<button id="confirm" type="button" class="btn btn-primary" >중복검사</button>
 						<input id="confirm_check" type="hidden" value="no"/>
