@@ -1,4 +1,4 @@
-!SESSION 2016-11-10 09:40:54.775 -----------------------------------------------
+!SESSION 2016-11-15 09:05:37.235 -----------------------------------------------
 eclipse.buildId=3.7.1.201510041213-RELEASE-e45
 java.version=1.8.0_101
 java.vendor=Oracle Corporation
@@ -6,642 +6,1085 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.springsource.sts.ide
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
 
-!ENTRY org.eclipse.egit.ui 2 0 2016-11-10 09:41:31.340
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\IT'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 09:43:41.039
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 09:43:41.063
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 09:43:49.839
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 09:43:49.848
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-10 09:44:05.074
-!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
-
-!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-10 09:44:05.075
-!MESSAGE Project facet grails.app has not been defined. It is used in plugin org.cloudfoundry.ide.eclipse.server.branding.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:44:55.004
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:44:55.020
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:44:57.696
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:44:57.701
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:00.154
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:00.160
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:01.786
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:01.793
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:03.922
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:03.930
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:05.458
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:05.464
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:08.694
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:08.710
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:11.146
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:45:11.179
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:46:14.523
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:46:14.525
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:50:15.774
-!MESSAGE The POM for org.codehaus.jackson:jackson-mapper-asl:jar:${jackson.version} is missing, no dependency information available
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:50:16.014
-!MESSAGE The POM for org.codehaus.jackson:jackson-mapper-asl:jar:${jackson.version} is missing, no dependency information available
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:50:16.389
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:50:16.391
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:50:16.427
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.jst.j2ee 4 0 2016-11-10 10:50:16.862
-!MESSAGE C:\Users\IT\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\${jackson.version}\jackson-mapper-asl-${jackson.version}.jar
-!STACK 0
-org.eclipse.jst.jee.archive.ArchiveOpenFailureException: C:\Users\IT\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\${jackson.version}\jackson-mapper-asl-${jackson.version}.jar
-	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.<init>(JavaEEBinaryComponentLoadAdapter.java:56)
-	at org.eclipse.jst.j2ee.internal.archive.JavaEEArchiveUtilities.openBinaryArchive(JavaEEArchiveUtilities.java:250)
-	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper$ArchiveCache.openArchive(JavaEEBinaryComponentHelper.java:612)
-	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.openArchive(JavaEEBinaryComponentHelper.java:470)
-	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getUniqueArchive(JavaEEBinaryComponentHelper.java:422)
-	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getArchive(JavaEEBinaryComponentHelper.java:415)
-	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getJavaEEQuickPeek(JavaEEBinaryComponentHelper.java:98)
-	at org.eclipse.jst.j2ee.project.JavaEEProjectUtilities.getJ2EEComponentType(JavaEEProjectUtilities.java:273)
-	at org.eclipse.jst.j2ee.internal.common.exportmodel.JEEHeirarchyExportParticipant.isChildModule(JEEHeirarchyExportParticipant.java:42)
-	at org.eclipse.wst.common.componentcore.internal.flat.GlobalHeirarchyParticipant.isChildModule(GlobalHeirarchyParticipant.java:41)
-	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.isChildModule(FlatVirtualComponent.java:367)
-	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.addUsedReferences(FlatVirtualComponent.java:305)
-	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.treeWalk(FlatVirtualComponent.java:235)
-	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:188)
-	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.fetchResources(FlatVirtualComponent.java:118)
-	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.members(FlatComponentDeployable.java:227)
-	at org.eclipse.jst.j2ee.internal.deployables.J2EEFlexProjDeployable.members(J2EEFlexProjDeployable.java:267)
-	at org.eclipse.wst.server.core.internal.ModulePublishInfo.hasDelta(ModulePublishInfo.java:435)
-	at org.eclipse.wst.server.core.internal.ServerPublishInfo.hasDelta(ServerPublishInfo.java:440)
-	at org.eclipse.wst.server.core.internal.Server.hasPublishedResourceDelta(Server.java:1590)
-	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob$1.visit(Server.java:217)
-	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3055)
-	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:3039)
-	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob.run(Server.java:228)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-Caused by: java.io.FileNotFoundException: C:\Users\IT\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\${jackson.version}\jackson-mapper-asl-${jackson.version}.jar (지정된 파일을 찾을 수 없습니다)
-	at java.util.zip.ZipFile.open(Native Method)
-	at java.util.zip.ZipFile.<init>(Unknown Source)
-	at java.util.zip.ZipFile.<init>(Unknown Source)
-	at org.eclipse.jst.common.internal.modulecore.util.ManifestUtilities$1.<init>(ManifestUtilities.java:259)
-	at org.eclipse.jst.common.internal.modulecore.util.ManifestUtilities.newZipFile(ManifestUtilities.java:259)
-	at org.eclipse.jst.jee.archive.internal.ArchiveUtil.newZipFile(ArchiveUtil.java:248)
-	at org.eclipse.jst.jee.archive.internal.ArchiveUtil.newZipFile(ArchiveUtil.java:234)
-	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.resetZipFile(JavaEEBinaryComponentLoadAdapter.java:67)
-	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.<init>(JavaEEBinaryComponentLoadAdapter.java:51)
-	... 24 more
-
-!ENTRY org.eclipse.wst.server.core 4 0 2016-11-10 10:50:20.749
-!MESSAGE Error reading file C:\Users\IT\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\${jackson.version}\jackson-mapper-asl-${jackson.version}.jar
-!STACK 0
-java.io.FileNotFoundException: C:\Users\IT\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\${jackson.version}\jackson-mapper-asl-${jackson.version}.jar (지정된 파일을 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:501)
-	at org.eclipse.wst.server.core.util.PublishHelper.publishSmart(PublishHelper.java:343)
-	at org.eclipse.wst.server.core.util.PublishHelper.publishSmart(PublishHelper.java:367)
-	at org.eclipse.wst.server.core.util.PublishHelper.publishSmart(PublishHelper.java:367)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishDir(TomcatServerBehaviour.java:348)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishModule(TomcatServerBehaviour.java:268)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishModule(TcServerBehaviour.java:487)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:50:20.868
-!MESSAGE The POM for org.codehaus.jackson:jackson-mapper-asl:jar:${jackson.version} is missing, no dependency information available
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:50:20.994
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:50:20.997
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.wst.server.core 4 0 2016-11-10 10:50:21.778
-!MESSAGE Error reading file C:\Users\IT\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\${jackson.version}\jackson-mapper-asl-${jackson.version}.jar
-!STACK 0
-java.io.FileNotFoundException: C:\Users\IT\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\${jackson.version}\jackson-mapper-asl-${jackson.version}.jar (지정된 파일을 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.wst.server.core.util.PublishHelper.copyFile(PublishHelper.java:501)
-	at org.eclipse.wst.server.core.util.PublishHelper.publishSmart(PublishHelper.java:343)
-	at org.eclipse.wst.server.core.util.PublishHelper.publishSmart(PublishHelper.java:367)
-	at org.eclipse.wst.server.core.util.PublishHelper.publishSmart(PublishHelper.java:367)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishDir(TomcatServerBehaviour.java:348)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishModule(TomcatServerBehaviour.java:268)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishModule(TcServerBehaviour.java:487)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:24.951
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:24.954
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:24.963
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:26.917
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:26.922
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:36.113
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:36.118
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:36.124
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:37.791
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:58:37.795
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:17.839
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:17.842
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:17.849
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:39.819
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:39.821
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:39.834
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:39.837
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:44.311
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 10:59:44.314
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:15:11.182
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:15:11.185
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:17:15.281
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:17:15.283
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:19:22.206
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:19:22.210
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:19:25.858
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:19:25.860
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:20:39.742
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:20:39.744
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:20:49.834
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:20:49.843
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:20:54.084
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 11:20:54.086
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-!SESSION 2016-11-10 12:00:12.547 -----------------------------------------------
-eclipse.buildId=3.7.1.201510041213-RELEASE-e45
-java.version=1.8.0_101
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.springsource.sts.ide
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
-
-!ENTRY org.eclipse.egit.ui 2 0 2016-11-10 12:01:20.879
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\IT'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:01:51.324
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:01:51.345
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:01:51.375
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:01:52.989
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:01:52.993
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:04:04.965
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:04:04.968
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-!SESSION 2016-11-10 12:07:44.657 -----------------------------------------------
-eclipse.buildId=3.7.1.201510041213-RELEASE-e45
-java.version=1.8.0_91
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.springsource.sts.ide
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
-
-!ENTRY org.eclipse.egit.ui 2 0 2016-11-10 12:08:08.168
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\IT'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-10 12:08:08.346
-!MESSAGE Failed to populate overview panel
-!STACK 0
-org.eclipse.swt.SWTException: Widget is disposed
-	at org.eclipse.swt.SWT.error(SWT.java:4491)
-	at org.eclipse.swt.SWT.error(SWT.java:4406)
-	at org.eclipse.swt.SWT.error(SWT.java:4377)
-	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
-	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
-	at org.eclipse.swt.widgets.Control.setRedraw(Control.java:3581)
-	at org.eclipse.ui.forms.widgets.Section.reflow(Section.java:125)
-	at org.eclipse.ui.forms.widgets.Section.internalSetExpanded(Section.java:115)
-	at org.eclipse.ui.forms.widgets.ExpandableComposite.setExpanded(ExpandableComposite.java:882)
-	at org.eclipse.m2e.editor.pom.OverviewPage$17$1.process(OverviewPage.java:1150)
-	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
-	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
-
-!ENTRY org.eclipse.ui 4 0 2016-11-10 12:08:08.952
-!MESSAGE Unhandled event loop exception
-!STACK 0
-org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Index out of bounds)
-	at org.eclipse.swt.SWT.error(SWT.java:4491)
-	at org.eclipse.swt.SWT.error(SWT.java:4406)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
-Caused by: java.lang.IllegalArgumentException: Index out of bounds
-	at org.eclipse.swt.SWT.error(SWT.java:4472)
-	at org.eclipse.swt.SWT.error(SWT.java:4406)
-	at org.eclipse.swt.SWT.error(SWT.java:4377)
-	at org.eclipse.swt.custom.CTabFolder.getItem(CTabFolder.java:883)
-	at org.eclipse.ui.part.MultiPageEditorPart.getItem(MultiPageEditorPart.java:717)
-	at org.eclipse.ui.part.MultiPageEditorPart.getPageText(MultiPageEditorPart.java:756)
-	at org.eclipse.m2e.editor.pom.MavenPomEditor.isEffectiveActive(MavenPomEditor.java:338)
-	at org.eclipse.m2e.editor.pom.MavenPomEditor.reload(MavenPomEditor.java:331)
-	at org.eclipse.m2e.editor.pom.MavenPomEditor$1ChangedResourceDeltaVisitor$1.run(MavenPomEditor.java:278)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
-	... 23 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2016-11-10 12:08:18.170
-!MESSAGE Error during AST class visiting
-!STACK 0
-java.io.FileNotFoundException: class path resource [com/gmail/whwan09/HomeController.class] cannot be opened because it does not exist
-	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
-	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
-	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
-	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
-	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
-	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
-	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
-	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+This is a continuation of log file D:\FinalProject\Dormammu\FinalProject_teamWe\.metadata\.bak_0.log
+Created Time: 2016-11-15 09:37:05.953
+
+!ENTRY org.eclipse.core.resources 4 1 2016-11-15 09:37:05.953
+!MESSAGE Core exception while retrieving the content description
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/Dormammu/src/main/java/com/gmail/whwan09/DBpool/DBpoolConnectTestMain.java'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:253)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.testContentType(FilePropertyTester.java:107)
+	at org.eclipse.core.internal.propertytester.FilePropertyTester.test(FilePropertyTester.java:59)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:106)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:98)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:137)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:131)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:341)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:356)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:75)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:341)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:356)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$4.changed(E4Application.java:871)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:341)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:356)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$7.changed(SelectionAggregator.java:229)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:341)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:356)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:31)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:441)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:163)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
-	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
-	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:160)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2197)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1228)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1257)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:242)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:236)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:408)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:05.954
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/java/com/gmail/whwan09/DBpool/DBpoolConnectTestMain.java'.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:08:21.136
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 09:37:14.603
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:08:21.164
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 09:37:14.608
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:08:21.176
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-11-15 09:37:27.015
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/WEB-INF/decorators.xml'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/WEB-INF/views/main.jsp'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.min.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/font-awesome.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/font-awesome.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/font-awesome.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/itschool.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/FontAwesome.otf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.eot'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.svg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.ttf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.woff'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.woff2'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/js/bootstrap.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/js/bootstrap.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/js/npm.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/js/parsley.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/.gitignore'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/LICENSE'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/README.md'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/bower.json'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/data/flot-data.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/data/morris-data.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/dist/css/sb-admin-2.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/dist/css/sb-admin-2.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/dist/js/sb-admin-2.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/dist/js/sb-admin-2.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/gulpfile.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/index.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/js/sb-admin-2.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/less/mixins.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/less/sb-admin-2.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/less/variables.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/package.json'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/blank.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/buttons.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/flot.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/forms.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/grid.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/icons.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/index.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/login.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/morris.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/notifications.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/panels-wells.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/tables.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/typography.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/css/bootstrap.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/css/bootstrap.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/js/bootstrap.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/js/bootstrap.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap-social/bootstrap-social.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap-social/bootstrap-social.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap-social/bootstrap-social.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.bootstrap.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.bootstrap.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.bootstrap4.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.bootstrap4.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.foundation.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.foundation.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.jqueryui.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.jqueryui.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.material.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.material.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.semanticui.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.semanticui.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.uikit.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.uikit.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/jquery.dataTables.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/jquery.dataTables.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/jquery.dataTables_themeroller.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/Sorting icons.psd'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/favicon.ico'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_asc.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_asc_disabled.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_both.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_desc.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_desc_disabled.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.bootstrap.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.bootstrap.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.bootstrap4.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.bootstrap4.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.foundation.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.foundation.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.jqueryui.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.jqueryui.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.material.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.material.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.semanticui.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.semanticui.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.uikit.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.uikit.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/jquery.dataTables.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/jquery.dataTables.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/jquery.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-plugins/dataTables.bootstrap.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-plugins/dataTables.bootstrap.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-plugins/dataTables.bootstrap.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-plugins/index.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-responsive/dataTables.responsive.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-responsive/dataTables.responsive.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-responsive/dataTables.responsive.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/excanvas.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/excanvas.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.colorhelpers.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.canvas.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.categories.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.crosshair.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.errorbars.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.fillbetween.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.image.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.navigate.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.pie.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.resize.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.selection.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.stack.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.symbol.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.threshold.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.time.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot-tooltip/jquery.flot.tooltip.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot-tooltip/jquery.flot.tooltip.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot-tooltip/jquery.flot.tooltip.source.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/HELP-US-OUT.txt'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/css/font-awesome.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/css/font-awesome.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/css/font-awesome.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/FontAwesome.otf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.eot'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.svg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.ttf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.woff'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.woff2'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/animated.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/bordered-pulled.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/core.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/extras.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.015
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/fixed-width.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/font-awesome.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/icons.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/larger.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/list.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/mixins.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/path.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/rotated-flipped.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/screen-reader.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/spinning.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/stacked.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/variables.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_animated.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_bordered-pulled.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_core.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_extras.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_fixed-width.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_icons.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_larger.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_list.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_mixins.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_path.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_rotated-flipped.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_screen-reader.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_spinning.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_stacked.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_variables.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/font-awesome.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/jquery/jquery.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/metisMenu/metisMenu.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/metisMenu/metisMenu.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/metisMenu/metisMenu.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/metisMenu/metisMenu.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/morrisjs/morris.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/morrisjs/morris.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/morrisjs/morris.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/raphael/raphael.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/raphael/raphael.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/js/jquery-3.1.1.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/reply.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/test1.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/Hydrangeas.jpg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/Koala.jpg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/Member.xml'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/XML.zip'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/insert_icon.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/license.txt'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/open_source_licenses-sts-bundle.txt'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/pom.xml'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:37:27.016
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/replyy.png'.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-11-15 09:40:15.701
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/WEB-INF/decorators.xml'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/WEB-INF/views/main.jsp'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.min.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/font-awesome.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/font-awesome.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/font-awesome.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/css/itschool.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/FontAwesome.otf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.eot'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.svg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.ttf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.woff'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/fontawesome-webfont.woff2'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.701
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/js/bootstrap.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/js/bootstrap.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/js/npm.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bootstrap-3.3.7-dist/js/parsley.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/.gitignore'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/LICENSE'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/README.md'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/bower.json'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/data/flot-data.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/data/morris-data.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/dist/css/sb-admin-2.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/dist/css/sb-admin-2.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/dist/js/sb-admin-2.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/dist/js/sb-admin-2.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/gulpfile.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/index.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/js/sb-admin-2.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/less/mixins.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/less/sb-admin-2.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/less/variables.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/package.json'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/blank.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/buttons.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/flot.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/forms.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/grid.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/icons.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/index.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/login.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/morris.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/notifications.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/panels-wells.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/tables.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/pages/typography.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/css/bootstrap.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/css/bootstrap.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/js/bootstrap.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap/js/bootstrap.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap-social/bootstrap-social.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap-social/bootstrap-social.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/bootstrap-social/bootstrap-social.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.bootstrap.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.bootstrap.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.bootstrap4.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.bootstrap4.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.foundation.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.foundation.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.jqueryui.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.jqueryui.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.material.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.material.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.semanticui.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.semanticui.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.uikit.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/dataTables.uikit.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/jquery.dataTables.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/jquery.dataTables.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/css/jquery.dataTables_themeroller.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/Sorting icons.psd'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/favicon.ico'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_asc.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_asc_disabled.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_both.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_desc.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/images/sort_desc_disabled.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.bootstrap.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.bootstrap.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.bootstrap4.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.bootstrap4.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.foundation.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.foundation.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.jqueryui.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.jqueryui.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.material.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.material.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.semanticui.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.semanticui.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.uikit.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/dataTables.uikit.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/jquery.dataTables.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/jquery.dataTables.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables/js/jquery.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-plugins/dataTables.bootstrap.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-plugins/dataTables.bootstrap.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-plugins/dataTables.bootstrap.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-plugins/index.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-responsive/dataTables.responsive.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-responsive/dataTables.responsive.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/datatables-responsive/dataTables.responsive.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/excanvas.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/excanvas.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.colorhelpers.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.canvas.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.categories.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.crosshair.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.errorbars.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.fillbetween.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.image.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.navigate.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.pie.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.resize.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.selection.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.stack.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.symbol.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.threshold.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.flot.time.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot/jquery.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot-tooltip/jquery.flot.tooltip.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot-tooltip/jquery.flot.tooltip.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/flot-tooltip/jquery.flot.tooltip.source.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/HELP-US-OUT.txt'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/css/font-awesome.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/css/font-awesome.css.map'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/css/font-awesome.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/FontAwesome.otf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.eot'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.svg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.ttf'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.woff'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/fonts/fontawesome-webfont.woff2'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/animated.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/bordered-pulled.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/core.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/extras.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/fixed-width.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/font-awesome.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/icons.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/larger.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/list.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/mixins.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/path.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/rotated-flipped.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/screen-reader.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/spinning.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/stacked.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/less/variables.less'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_animated.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_bordered-pulled.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_core.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_extras.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_fixed-width.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_icons.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_larger.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_list.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_mixins.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_path.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_rotated-flipped.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_screen-reader.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_spinning.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_stacked.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/_variables.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/font-awesome/scss/font-awesome.scss'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/jquery/jquery.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/metisMenu/metisMenu.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/metisMenu/metisMenu.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/metisMenu/metisMenu.min.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/metisMenu/metisMenu.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/morrisjs/morris.css'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/morrisjs/morris.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/morrisjs/morris.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/raphael/raphael.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/bs-sb/vendor/raphael/raphael.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/js/jquery-3.1.1.min.js'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/reply.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/test1.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/Hydrangeas.jpg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/Koala.jpg'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/Member.xml'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/XML.zip'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/insert_icon.png'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/license.txt'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/open_source_licenses-sts-bundle.txt'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/pom.xml'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2016-11-15 09:40:15.702
+!MESSAGE Resource is out of sync with the file system: '/Dormammu/src/main/webapp/resources/uploadfolder/replyy.png'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 09:41:20.217
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:08:22.531
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 09:41:20.221
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:08:22.538
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:08:58.704
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 12:08:58.709
-!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
-!SESSION 2016-11-10 12:27:15.242 -----------------------------------------------
+!SESSION 2016-11-15 12:17:10.723 -----------------------------------------------
 eclipse.buildId=3.7.1.201510041213-RELEASE-e45
-java.version=1.8.0_91
+java.version=1.8.0_101
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.springsource.sts.ide
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
 
-!ENTRY org.eclipse.egit.ui 2 0 2016-11-10 12:27:31.366
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-15 12:21:04.935
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\IT'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-10 13:34:08.863
-!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
-
-!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-10 13:34:08.864
-!MESSAGE Project facet grails.app has not been defined. It is used in plugin org.cloudfoundry.ide.eclipse.server.branding.
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.815
-!MESSAGE Publishing the configuration...
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.815
-!MESSAGE Error copying file to D:/UTIL/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/base-instance/backup\catalina.policy: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\catalina.policy (지정된 경로를 찾을 수 없습니다)
-!STACK 0
-java.io.FileNotFoundException: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\catalina.policy (지정된 경로를 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.FileUtil.copyFile(FileUtil.java:127)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:125)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerConfiguration.backupAndPublish(TcServerConfiguration.java:459)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishServer(TcServerBehaviour.java:567)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.816
-!MESSAGE Error copying file to D:/UTIL/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/base-instance/backup\catalina.properties: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\catalina.properties (지정된 경로를 찾을 수 없습니다)
-!STACK 0
-java.io.FileNotFoundException: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\catalina.properties (지정된 경로를 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.FileUtil.copyFile(FileUtil.java:127)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:125)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerConfiguration.backupAndPublish(TcServerConfiguration.java:459)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishServer(TcServerBehaviour.java:567)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.816
-!MESSAGE Error copying file to D:/UTIL/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/base-instance/backup\context.xml: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\context.xml (지정된 경로를 찾을 수 없습니다)
-!STACK 0
-java.io.FileNotFoundException: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\context.xml (지정된 경로를 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.FileUtil.copyFile(FileUtil.java:127)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:125)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerConfiguration.backupAndPublish(TcServerConfiguration.java:459)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishServer(TcServerBehaviour.java:567)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.816
-!MESSAGE Error copying file to D:/UTIL/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/base-instance/backup\jmxremote.access: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\jmxremote.access (지정된 경로를 찾을 수 없습니다)
-!STACK 0
-java.io.FileNotFoundException: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\jmxremote.access (지정된 경로를 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.FileUtil.copyFile(FileUtil.java:127)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:125)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerConfiguration.backupAndPublish(TcServerConfiguration.java:459)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishServer(TcServerBehaviour.java:567)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.816
-!MESSAGE Error copying file to D:/UTIL/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/base-instance/backup\jmxremote.password: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\jmxremote.password (지정된 경로를 찾을 수 없습니다)
-!STACK 0
-java.io.FileNotFoundException: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\jmxremote.password (지정된 경로를 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.FileUtil.copyFile(FileUtil.java:127)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:125)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerConfiguration.backupAndPublish(TcServerConfiguration.java:459)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishServer(TcServerBehaviour.java:567)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.817
-!MESSAGE Error copying file to D:/UTIL/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/base-instance/backup\server.xml: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\server.xml (지정된 경로를 찾을 수 없습니다)
-!STACK 0
-java.io.FileNotFoundException: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\server.xml (지정된 경로를 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.FileUtil.copyFile(FileUtil.java:127)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:125)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerConfiguration.backupAndPublish(TcServerConfiguration.java:459)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishServer(TcServerBehaviour.java:567)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.817
-!MESSAGE Error copying file to D:/UTIL/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/base-instance/backup\tomcat-users.xml: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\tomcat-users.xml (지정된 경로를 찾을 수 없습니다)
-!STACK 0
-java.io.FileNotFoundException: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\tomcat-users.xml (지정된 경로를 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.FileUtil.copyFile(FileUtil.java:127)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:125)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerConfiguration.backupAndPublish(TcServerConfiguration.java:459)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishServer(TcServerBehaviour.java:567)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2016-11-10 13:34:11.817
-!MESSAGE Error copying file to D:/UTIL/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/base-instance/backup\web.xml: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\web.xml (지정된 경로를 찾을 수 없습니다)
-!STACK 0
-java.io.FileNotFoundException: D:\UTIL\sts-bundle\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\web.xml (지정된 경로를 찾을 수 없습니다)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.FileUtil.copyFile(FileUtil.java:127)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:125)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerConfiguration.backupAndPublish(TcServerConfiguration.java:459)
-	at com.vmware.vfabric.ide.eclipse.tcserver.internal.core.TcServerBehaviour.publishServer(TcServerBehaviour.java:567)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 13:41:42.111
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 12:21:18.652
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 13:41:42.121
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 12:21:18.670
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-11-15 14:14:27.541 -----------------------------------------------
+eclipse.buildId=3.7.1.201510041213-RELEASE-e45
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-15 14:14:43.115
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\IT'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 14:14:49.163
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 13:41:45.088
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 14:14:49.174
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-11-15 15:09:30.390 -----------------------------------------------
+eclipse.buildId=3.7.1.201510041213-RELEASE-e45
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-15 15:09:52.045
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\IT'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2016-11-15 15:09:58.800
+!MESSAGE Error occured processing '/Dormammu/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml'
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.springframework.ide.eclipse.core.io.xml.XercesDocumentLoader.loadDocument(XercesDocumentLoader.java:48)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$2.loadBeanDefinitions(BeansConfig.java:394)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$3.call(BeansConfig.java:453)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$3.call(BeansConfig.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:10:12.403
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-10 13:41:45.107
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:10:12.419
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:10:12.450
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:10:48.720
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:10:48.767
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:11:15.287
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:11:15.287
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:12:20.985
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:12:20.985
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:12:36.094
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:12:36.094
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:15:25.588
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:15:25.588
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-11-15 15:19:00.223 -----------------------------------------------
+eclipse.buildId=3.7.1.201510041213-RELEASE-e45
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-15 15:19:17.306
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\IT'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:19:20.957
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:19:20.972
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:23:47.067
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:23:47.083
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:24:06.306
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:24:06.322
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:24:22.223
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:24:22.223
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:24:29.823
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:24:29.827
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:44:48.951
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 15:44:48.951
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!

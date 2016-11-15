@@ -1,0 +1,14 @@
+
+11월 11, 2016 14:53:36.75 NEW SESSION
+11월 11, 2016 14:53:36.75 1478843616758	addons.update-checker	WARN	Update manifest for asyncrendering@mozilla.org did not contain an updates property
+11월 11, 2016 14:53:36.76 1478843616770	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+11월 11, 2016 14:53:36.76 1478843616780	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+11월 11, 2016 14:53:36.78 1478843616791	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+11월 11, 2016 14:53:36.80 1478843616801	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+
+11월 15, 2016 10:25:27.40 NEW SESSION
+11월 15, 2016 10:25:27.40 1479173127368	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+11월 15, 2016 10:25:27.41 1479173127380	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+11월 15, 2016 10:25:27.41 1479173127391	addons.update-checker	WARN	Update manifest for asyncrendering@mozilla.org did not contain an updates property
+11월 15, 2016 10:25:27.43 1479173127405	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+11월 15, 2016 10:25:27.44 1479173127418	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
