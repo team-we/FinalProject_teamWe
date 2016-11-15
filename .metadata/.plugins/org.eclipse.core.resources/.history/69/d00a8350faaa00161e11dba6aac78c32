@@ -1,0 +1,50 @@
+package com.gmail.whwan09.DBpool;
+
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class DBpoolConnectTestMain {
+
+	public static void main(String[] args) {
+		DBConnectionManager db = DBConnectionManager.getInstance();
+		Connection cn = null;
+<<<<<<< HEAD
+		PreparedStatement ps = null; //ì¿¼ë¦¬ë¥¼ ë˜ì§€ëŠ” ë¬¸ìž¥ 
+		ResultSet rs =null;
+		System.out.println("DB test start...");
+		
+		String sql = "SELECT count(*) FROM member"; //* ì¼ë•ŒëŠ” descìˆœì„œëŒ€ë¡œ 1,2,3,... ìœ„ì™€ê°™ì´ ì§€ì •í•˜ë©´ select 1, 2, 3 ì´ë ‡ê²Œ ëœë‹¤(rs.executeì—ì„œ ì¶œë ¥ì‹œ)
+		try {
+			cn = db.getConnection(); //ë§¤ë‹ˆì ¸ëž‘ ì—°ê²°í•´ì„œ cnì´ ê°€ì§€ê³  ìžˆë‹¤
+			ps = (PreparedStatement) cn.prepareStatement( sql ); //ëª…ë ¹ì–´(ì¿¼ë¦¬)ë¥¼ ë˜ì§€ëŠ” ê²ƒ
+			rs = ps.executeQuery(); //ê²°ê³¼ê°’ì„ ê°€ì§€ê³  ìžˆë‹¤ ì—ëŸ¬ê°€ ë‚˜ë©´ ìºì¹˜ë¬¸ìœ¼ë¡œ ë¹ ì§€ê²Œ ëœë‹¤DBì „ìš© ë¹ˆì´ë¼ê³  ìƒê°í•˜ë©´ ì‰½ë‹¤ executeQuery ëŠ” selectì—ì„œ ì‚¬ìš© selectëŠ” ë¬´ì¡°ê±´ resultsetìœ¼ë¡œ ë°›ìŠµë‹ˆë‹¤.
+//			while (rs.next()){
+//				System.out.print(" --> "+rs.getString(1)+" "+rs.getString(2)+rs.getInt("age")); //number -> string ê°€ëŠ¥ varchar -> int ë¶ˆê°€ëŠ¥
+//			}
+			if ( rs.next() ) {  //ê²°ê³¼ê°’ì´ ì—¬ë ¤ê°œë©´ while ë¬¸ìœ¼ë¡œ ì§œëŠ”ê²ƒ ê·¸ëŸ¬ë¯€ë¡œ ê²°ê³¼ê°’ì´ ëª‡ê°œì¸ì§€ í™•ì‹¤ížˆ ì•Œì•„ì•¼ í•œë‹¤ insert,delete,updateëŠ” ê²°ê³¼ê°€ ë“¤ì–´ê°”ë‹¤ ì•ˆë“¤ì–´ê°”ë‹¤ ë‘˜ì¤‘í•˜ë‚˜
+=======
+		PreparedStatement ps = null; //ì¿¼ë¦¬ë¥? ?˜ì§??Š” ë¬¸ìž¥ 
+		ResultSet rs =null;
+		System.out.println("DB test start...");
+		
+		String sql = "SELECT count(*) FROM member"; //* ?¼?•Œ?Š” desc?ˆœ?„œ??ë¡? 1,2,3,... ?œ„??ê°™ì´ ì§?? •?•˜ë©? select 1, 2, 3 ?´? ‡ê²? ?œ?‹¤(rs.execute?—?„œ ì¶œë ¥?‹œ)
+		try {
+			cn = db.getConnection(); //ë§¤ë‹ˆ? ¸?ž‘ ?—°ê²°í•´?„œ cn?´ ê°?ì§?ê³? ?žˆ?‹¤
+			ps = (PreparedStatement) cn.prepareStatement( sql ); //ëª…ë ¹?–´(ì¿¼ë¦¬)ë¥? ?˜ì§??Š” ê²?
+			rs = ps.executeQuery(); //ê²°ê³¼ê°’ì„ ê°?ì§?ê³? ?žˆ?‹¤ ?—?Ÿ¬ê°? ?‚˜ë©? ìºì¹˜ë¬¸ìœ¼ë¡? ë¹ ì?ê²? ?œ?‹¤DB? „?š© ë¹ˆì´?¼ê³? ?ƒê°í•˜ë©? ?‰½?‹¤ executeQuery ?Š” select?—?„œ ?‚¬?š© select?Š” ë¬´ì¡°ê±? resultset?œ¼ë¡? ë°›ìŠµ?‹ˆ?‹¤.
+//			while (rs.next()){
+//				System.out.print(" --> "+rs.getString(1)+" "+rs.getString(2)+rs.getInt("age")); //number -> string ê°??Š¥ varchar -> int ë¶ˆê??Š¥
+//			}
+			if ( rs.next() ) {  //ê²°ê³¼ê°’ì´ ?—¬? ¤ê°œë©´ while ë¬¸ìœ¼ë¡? ì§œëŠ”ê²? ê·¸ëŸ¬ë¯?ë¡? ê²°ê³¼ê°’ì´ ëª‡ê°œ?¸ì§? ?™•?‹¤?žˆ ?•Œ?•„?•¼ ?•œ?‹¤ insert,delete,update?Š” ê²°ê³¼ê°? ?“¤?–´ê°”ë‹¤ ?•ˆ?“¤?–´ê°”ë‹¤ ?‘˜ì¤‘í•˜?‚˜
+>>>>>>> refs/remotes/origin/master
+				System.out.println("count : " + rs.getInt(1) );
+				rs.close();
+			}
+		} catch (Exception e) {
+			System.out.println("db error : "+e.getMessage());
+		}
+	}
+
+}
