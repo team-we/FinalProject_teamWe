@@ -5,7 +5,29 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-11-10T18:08:00Z</updated>
+  <updated>2016-11-14T16:18:44Z</updated>
+  <entry>
+    <title>Spring IO Platform Athens-SR1</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/11/14/spring-io-platform-athens-sr1" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2016-11-14:2694</id>
+    <updated>2016-11-14T16:18:44Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="http://platform.spring.io/platform"&gt;Spring IO Platform&lt;/a&gt; Athens-SR1 is now available from both &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.spring.platform"&gt;Maven Central&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring AMQP 1.6.5.RELEASE&lt;/li&gt;
+  &lt;li&gt;Spring Boot 1.4.2.RELEASE&lt;/li&gt;
+  &lt;li&gt;Spring Data Hopper SR5&lt;/li&gt;
+  &lt;li&gt;Spring Framework 4.3.4.RELEASE&lt;/li&gt;
+  &lt;li&gt;Spring Integration 4.3.5.RELEASE&lt;/li&gt;
+  &lt;li&gt;Spring Security OAuth 2.0.12.RELEASE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://platform.spring.io/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Athens-SR1/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Data Geode 1.0.0.INCUBATING-RELEASE Released</title>
     <link rel="alternate" href="https://spring.io/blog/2016/11/10/spring-data-geode-1-0-0-incubating-release-released" />
@@ -682,64 +704,5 @@ examples:&#xD;
 &lt;p&gt;This presentation will show you how you can use the Spring Cloud Contract Verifier functionality in order to have a fully automated solution to stub your HTTP / Messaging collaborators. Just by adding proper configuration, you&amp;rsquo;ll surround the microservices you are testing with faked stubs that are tested against their producer, making much more realistic tests. &lt;/p&gt;
 &lt;p&gt;We will write a system using the CDC approach together with Spring Boot, Spring Cloud and Spring Cloud Contract Verifier. I&amp;rsquo;ll show you how easy it is to write applications that have a consumer-driven API, allowing a developer to speed up the time for writing better quality software.&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4fJiz0woxAc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Vault and Spring Cloud Vault 1.0.0.M1 are now available</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/10/28/spring-vault-and-spring-cloud-vault-1-0-0-m1-are-now-available" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Mark Paluch</name>
-    </author>
-    <id>tag:spring.io,2016-10-28:2671</id>
-    <updated>2016-10-28T10:41:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the community, I am pleased to announce the first milestone releases of Spring Vault and Spring Cloud Vault &lt;code&gt;1.0.0.M1&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The artifacts are available in the &lt;a href="http://repo.spring.io/libs-milestone"&gt;Milestone repo&lt;/a&gt;.&lt;/p&gt;&lt;h1&gt;&lt;a href="#what-is-spring-vault-and-spring-cloud-vault" class="anchor" name="what-is-spring-vault-and-spring-cloud-vault"&gt;&lt;/a&gt;What is Spring Vault and Spring Cloud Vault?&lt;/h1&gt;
-&lt;p&gt;Spring Vault is a client for &lt;a href="https://www.vaultproject.io/"&gt;HashiCorp Vault&lt;/a&gt; that provides familiar Spring abstractions. It comes with &lt;code&gt;@VaultPropertySource&lt;/code&gt; that exposes encrypted properties from Vault the &lt;code&gt;Environment&lt;/code&gt; and &lt;code&gt;VaultTemplate&lt;/code&gt; to access secrets stored and encrypted inside Vault.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@Configuration&#xD;
-@VaultPropertySource(&amp;quot;secret/my-application&amp;quot;)&#xD;
-public class AppConfig extends AbstractVaultConfiguration {&#xD;
-&#xD;
-    /**&#xD;
-     * Specify an endpoint for connecting to Vault.&#xD;
-     */&#xD;
-    @Override&#xD;
-    public VaultEndpoint vaultEndpoint() {&#xD;
-        return VaultEndpoint.create(&amp;quot;localhost&amp;quot;, 8200);&#xD;
-    }&#xD;
-&#xD;
-    /**&#xD;
-     * Configure a client authentication.&#xD;
-     */&#xD;
-    @Override&#xD;
-    public ClientAuthentication clientAuthentication() {&#xD;
-        return new TokenAuthentication(&amp;quot;¡¦&amp;quot;);&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Spring Cloud Vault uses Spring Vault to provide a configuration integration for Spring Boot-based applications. Spring Cloud Vault provides configuration data to applications that is encrypted inside Vault. Applications using Spring Cloud Vault can request generated credentials from Vault for various database and service integrations, like MySQL, MongoDB, Consul, AWS, and many more. On application shutdown, these credentials are revoked and no longer valid.&lt;/p&gt;
-&lt;p&gt;Adding the &lt;code&gt;spring-cloud-vault-starter-config&lt;/code&gt; dependency and supplying Vault connection details to the &lt;code&gt;bootstrap&lt;/code&gt; configuration is sufficient to get started with Spring Cloud Vault.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint xml"&gt;&amp;lt;dependencies&amp;gt;&#xD;
-    &amp;lt;dependency&amp;gt;&#xD;
-        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-        &amp;lt;artifactId&amp;gt;spring-cloud-vault-starter-config&amp;lt;/artifactId&amp;gt;&#xD;
-        &amp;lt;version&amp;gt;1.0.0.M1&amp;lt;/version&amp;gt;&#xD;
-    &amp;lt;/dependency&amp;gt;&#xD;
-&amp;lt;/dependencies&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class="prettyprint yaml"&gt;spring.cloud.vault:&#xD;
-    host: localhost&#xD;
-    authentication: (TOKEN|APPROLE|AWS_EC2|CERT|¡¦)&#xD;
-    token: ¡¦
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#contributions" class="anchor" name="contributions"&gt;&lt;/a&gt;Contributions&lt;/h2&gt;
-&lt;p&gt;Without the community, we couldn¡¯t be the successful project we are today. I¡¯d like to thank everyone that created issues &amp;amp; provided feedback.&lt;/p&gt;&lt;h2&gt;&lt;a href="#feedback-please" class="anchor" name="feedback-please"&gt;&lt;/a&gt;Feedback Please&lt;/h2&gt;
-&lt;p&gt;If you have feedback on this release, I encourage you to reach out via &lt;a href="http://stackoverflow.com/questions/tagged/spring-vault"&gt;StackOverflow&lt;/a&gt;, &lt;a href="https://github.com/spring-projects/spring-vault/issues"&gt;GitHub Issues&lt;/a&gt;, or via the comments section. You can also ping me &lt;a href="https://twitter.com/mp911de"&gt;@mp911&lt;/a&gt; or the &lt;a href="https://twitter.com/SpringCloudOSS"&gt;@SpringCloudOSS&lt;/a&gt; team on Twitter.&lt;/p&gt;
-&lt;p&gt;Check out any of these links for more details:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="http://projects.spring.io/spring-vault/"&gt;Spring Vault Project page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://docs.spring.io/spring-vault/docs/1.0.0.M1/reference/html/"&gt;Spring Vault Project documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://cloud.spring.io/spring-cloud-vault-config/"&gt;Spring Cloud Vault Project page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://cloud.spring.io/spring-cloud-vault-config/spring-cloud-vault-config.html"&gt;Spring Cloud Vault Project documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/mp911de/spring-cloud-vault-config-samples"&gt;Examples&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>
