@@ -12,6 +12,13 @@
 	</decorator>
 <!-- 	<decorator name="header" page="layout/header.jsp"/> -->
 <!-- 	<decorator name="menu" page="layout/menu.jsp"/> -->
+	
+	
+
+
+
+
+
 
 <!-- 	<decorator name="mInsert" page="layout/mInsert.jsp"/> -->
 <!-- 	<decorator name="mList" page="layout/mList.jsp"/> -->

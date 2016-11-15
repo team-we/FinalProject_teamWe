@@ -10,19 +10,19 @@ public class DBpoolConnectTestMain {
 	public static void main(String[] args) {
 		DBConnectionManager db = DBConnectionManager.getInstance();
 		Connection cn = null;
-		PreparedStatement ps = null; //쿼리를 던지는 문장 
+		PreparedStatement ps = null; //쿼리�? ?���??�� 문장 
 		ResultSet rs =null;
 		System.out.println("DB test start...");
 		
-		String sql = "SELECT count(*) FROM member"; //* 일때는 desc순서대로 1,2,3,... 위와같이 지정하면 select 1, 2, 3 이렇게 된다(rs.execute에서 출력시)
+		String sql = "SELECT count(*) FROM member"; //* ?��?��?�� desc?��?��??�? 1,2,3,... ?��??같이 �??��?���? select 1, 2, 3 ?��?���? ?��?��(rs.execute?��?�� 출력?��)
 		try {
-			cn = db.getConnection(); //매니져랑 연결해서 cn이 가지고 있다
-			ps = (PreparedStatement) cn.prepareStatement( sql ); //명령어(쿼리)를 던지는 것
-			rs = ps.executeQuery(); //결과값을 가지고 있다 에러가 나면 캐치문으로 빠지게 된다DB전용 빈이라고 생각하면 쉽다 executeQuery 는 select에서 사용 select는 무조건 resultset으로 받습니다.
+			cn = db.getConnection(); //매니?��?�� ?��결해?�� cn?�� �?�?�? ?��?��
+			ps = (PreparedStatement) cn.prepareStatement( sql ); //명령?��(쿼리)�? ?���??�� �?
+			rs = ps.executeQuery(); //결과값을 �?�?�? ?��?�� ?��?���? ?���? 캐치문으�? 빠�?�? ?��?��DB?��?�� 빈이?���? ?��각하�? ?��?�� executeQuery ?�� select?��?�� ?��?�� select?�� 무조�? resultset?���? 받습?��?��.
 //			while (rs.next()){
-//				System.out.print(" --> "+rs.getString(1)+" "+rs.getString(2)+rs.getInt("age")); //number -> string 가능 varchar -> int 불가능
+//				System.out.print(" --> "+rs.getString(1)+" "+rs.getString(2)+rs.getInt("age")); //number -> string �??�� varchar -> int 불�??��
 //			}
-			if ( rs.next() ) {  //결과값이 여려개면 while 문으로 짜는것 그러므로 결과값이 몇개인지 확실히 알아야 한다 insert,delete,update는 결과가 들어갔다 안들어갔다 둘중하나
+			if ( rs.next() ) {  //결과값이 ?��?��개면 while 문으�? 짜는�? 그러�?�? 결과값이 몇개?���? ?��?��?�� ?��?��?�� ?��?�� insert,delete,update?�� 결과�? ?��?��갔다 ?��?��?��갔다 ?��중하?��
 				System.out.println("count : " + rs.getInt(1) );
 				rs.close();
 			}
