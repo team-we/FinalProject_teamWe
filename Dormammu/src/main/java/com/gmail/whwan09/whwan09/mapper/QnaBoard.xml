@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<mapper namespace="com.gmail.whwan09.service.QnaBoardDao">
+		<resultMap type="com.gmail.whwan09.entities.QnaBoard" id="qnaboardMap">
+			<id property="q_seq"      column="q_seq" />
+			<id property="q_id"    column="q_id" />
+			<id property="q_password" column="q_password" />
+			<id property="q_name"     column="q_name" />
+			<id property="q_attach"   column="q_attach" />
+			<id property="q_title"    column="q_title" />
+			<id property="q_content"  column="q_content" />
+			<id property="q_reply"    column="q_content" />
+			<id property="q_like"     column="q_id" />
+			<id property="q_hit"      column="q_hit" />
+			<id property="q_ref"      column="q_ref" />
+			<id property="q_step"     column="q_step" />
+			<id property="q_ip"       column="q_ip" />
+			<id property="q_date"     column="q_date" />
+		</resultMap>
+	</mapper>
